@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Malik Bensalem">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="libs/css/style.css" rel="stylesheet">
+        <title>MB OpenCage</title>
+    </head>
+    <body>
+        <h1>OpenCage API Example</h1>
+
+        <select id="selPlace">
+            <option value="London">London</option>
+            <option value="Birmingham" >Birmingham</option>
+            <option value="Paris">Paris</option>
+            <option value="Berlin" >Berlin</option>
+        </select>
+
+        <button id="btnPlace">Find Info</button>
+    
+        <p>Continent:   <span id="pContinent"></span></p>
+        <p>Capital:     <span id="pCapital"></span></p>  
+        <p>Coordinates: <span id="pCoordinates"></span></p>
+        <p>Currency:    <span id="pCurrency"></span></p>
+        <p>Timezone:    <span id="pTimezone"></span></p>
+        <p id ="pError"></p>
+        <script type="application/javascript" src="libs\js\jquery-2.2.3.min.js"></script>
+        <script type="application/javascript" src="libs\js\script.js"></script>
+    </body>
+</html>
